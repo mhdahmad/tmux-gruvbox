@@ -4,8 +4,8 @@ Theme with 'retro groove' flavor for [Tmux][github-tmux], based on Pavel Pertsev
 
 > Screenshots made from macOS builtin terminal with xterm-256color and [Hack font][github-hack].
 
-| Dark theme | Light theme |
-|---|---|
+| Dark theme                                                                                                                                     | Light theme                                                                                                                                     |
+| ---------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
 | <img src="https://i.imgur.com/STohAcp.png" title="Tmux grovbox dark colorscheme" style="width: 100%; max-width: 600px; text-align: center;" /> | <img src="https://i.imgur.com/zQZEFtU.png" title="Tmux grovbox light colorscheme" style="width: 100%; max-width: 600px; text-align: center;" /> |
 
 ## Installation
@@ -25,7 +25,7 @@ cat tmux-gruvbox-dark.conf >> ~/.tmux.conf
 Add plugin to the list of TPM plugins in `.tmux.conf` and select desired theme
 
 ```bash
-set -g @plugin 'egel/tmux-gruvbox'
+set -g @plugin 'mhdahmad/tmux-gruvbox'
 set -g @tmux-gruvbox 'dark' # or 'light'
 ```
 
